@@ -1,0 +1,79 @@
+.container {
+  border: solid 2px rgb(118, 63, 157);
+  width: 950px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.drinks {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.drinks ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.drinks ul li {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.drinks ul li .drink {
+  width: 150px;
+  height: 190px;
+}
+.drinks ul li .nedan {
+  width: 70px;
+  margin-left: 35px;
+}
+
+.change {
+  background-color: aqua;
+}
+
+#gou {
+  width: 200px;
+  height: 50px;
+  border: solid 2px black;
+  text-align: center;
+  line-height: 50px;
+  margin: 20px auto;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(202, 238, 214);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.btns {
+  display: flex;
+}
+
+.buy {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 950px;
+  height: 200px;
+  border: solid black 2px;
+}
+
+#buy_otya {
+  width: 150px;
+  height: 190px;
+}/*# sourceMappingURL=style.css.map */
